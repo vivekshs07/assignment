@@ -314,7 +314,7 @@ body {
 @media screen and (max-width:786px) {
     .page1 {
         width: 100%;
-        height: 60vh;
+        height: 70vh;
     }
 
     .page1 nav {
@@ -347,7 +347,7 @@ body {
 
     .page2 {
         flex-direction: column-reverse;
-        height: 60vh;
+        height: 65vh;
         justify-content: center;
         gap: 4vw;
     }
@@ -356,6 +356,7 @@ body {
     .about_img {
         width: 60vw;
         height: 60vw;
+        padding-top: 2vw;
     }
 
     .about {
@@ -372,9 +373,9 @@ body {
 
     .about p {
         letter-spacing: .5px;
-        font-size: 3vw;
-        font-weight: 400;
-        line-height: 3vw;
+        font-size: 4vw;
+        font-weight: 900;
+        line-height: 3.5vw;
         margin-top: 2vw;
         color: white;
         width: 100%;
@@ -383,7 +384,7 @@ body {
 
     .page3 {
         width: 100%;
-        height: 70vh;
+        height: 80vh;
         padding: 8vw 0;
         display: flex;
         flex-direction: column;
@@ -492,16 +493,15 @@ body {
 
     .page5 {
         width: 100%;
-        height: 40vh;
+        height: 30vh;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
         padding: 2vw 4vw;
-        margin-bottom: 2vw;
     }
 
     .call {
         width: 100%;
-        height: 40%;
+        height: 80%;
         display: flex;
         align-items: start;
         flex-direction: column;
@@ -518,10 +518,6 @@ body {
     .call h2 {
         font-size: 6vw;
         font-weight: 400;
-    }
-
-    .footer {
-      display: none;
     }
 
     .form {
